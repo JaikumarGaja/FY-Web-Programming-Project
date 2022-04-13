@@ -1,0 +1,45 @@
+.photogrid{
+    box-sizing: border-box;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 30px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+    
+  .row {
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+  }
+  
+  
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px; 
+  }
+
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    border-radius: 15px;
+    width: 100%;
+    border: 1px solid white;
+    transition: all 0.2s;
+  }
+  
+
+  .row .column img:hover{
+    transform: scale(1.3);
+  }
+
+
+      

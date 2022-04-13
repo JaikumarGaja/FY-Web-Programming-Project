@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Grenze' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/title.svg">
+    <title>Exotic Pets</title>
+</head>
+
+<body>
+    <div class="background">
+        <nav class="menu bar">
+            <link rel="stylesheet" href="nav.css">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo1.png"></a>
+            </div>
+            <ul class="nav-links">
+                <li> <a href="index.html" class="current">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="pets.html">Pets</a></li>
+                <li> <a href="newsletter.html">Newsletter </a></li>
+            </ul>
+        </nav>
+        <div class="carousel slider div">
+            <!--Carousel-->
+            <link rel="stylesheet" href="carousel.css">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/redpandacarousal.jpg">
+                    <div class="text">Red Panda</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/ferretcarousal.jpg">
+                    <div class="text">Ferret</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/serval cat carousal.jpg">
+                    <div class="text">Serval Cat</div>
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 5000); // Change image every 3.5 seconds
+                }
+            </script>
+
+        </div>
+        <hr class="belowcarousel">
+        <!--Text Area-->
+        <div class="content">
+            <link rel="stylesheet" href="paragraph.css">
+            <h1><u>Exotic Pets</u></h1>
+            <h3>What are <strong>Exotic pets</strong> ? </h3>
+            <p>The definition of an exotic pet can vary depending on the context. There are various definitions and
+                common
+                uses of the term "exotic pet"b but determining an exact definition is actually somewhat difficult.
+                In many situations, an exotic pet is loosely defined as any pet that is not a dog, cat, or farm animal.
+                This
+                encompasses many different species of animals including pocket pets, birds, reptiles, fish, and
+                amphibians
+                in addition to those animals that are less often seen as pets such as primates, kangaroos, pot-bellied
+                pigs,
+                and big cats.</p>
+            <pre style="text-align: center; font-weight: bold;">------------------------------------ </pre>
+            <h3>Legality for exotic pets :</h3>
+            <a href="redpanda.html"><img src="grid/redpanda.jpg"></a>
+            <p>The Convention on the International Trade in Endangered Species of Wild Flora and Fauna, or CITES,
+                moderates
+                the trade of some exotic pets around the world, to prevent any threats to their survival and ecological
+                damage. Certain animals may be strictly regulated or restricted outright due to both their conservation
+                status, as well as the possibility of the animal becoming an invasive species.
+                The USDA issues permits for keeping and breeding certain exotic species, whether captured from the wild
+                or
+                bred. In the United States, for example, it is illegal to import non-human primates for the pet trade,
+                but
+                animals bred in captivity exist in the trade, using animals descended from those brought in legally
+                before
+                the ban was enacted. As of September 2014, most US states forbid or regulate the possession of exotic
+                pets,
+                but 5 states have no license or permit requirements.
+                In 2003, the US Captive Wild Animal Safety Act (CWASA) became law, and in September 2007 the US Fish and
+                Wildlife Service enacted rules to enforce it. The law bans the sale or transport of big cats across
+                state
+                lines for the pet trade, and applies to cheetahs, cougars, jaguars, leopards, clouded leopards, snow
+                leopards, lions, tigers, and their hybrids.</p>
+            <hr style="border: 3px solid black; margin-top: 30px;">
+        </div>
+        <div class="photogrid">
+            <link rel="stylesheet" href="grid.css">
+            <!-- Photo Grid -->
+            <div class="row">
+                <div class="column">
+                    <img src="grid/bluemacow.jpg" style="width:100%">
+                    <img src="grid/blueparrot.jpg" style="width:100%">
+                    <img src="grid/frog.jpg" style="width:100%">
+                    <img src="grid/humming bird.jpg" style="width:100%">
+                    <img src="grid/lemurs.jpg" style="width:100%">
+                    <img src="grid/lizard.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="grid/memphiscat.jpg" style="width:100%">
+                    <img src="grid/pangolin.jpg" style="width:100%">
+                    <img src="grid/redpanda.jpg" style="width:100%">
+                    <img src="grid/robin.jpg" style="width:100%">
+                    <img src="grid/sea horse.jpg" style="width:100%">
+                    <img src="grid/towcan.jpg" style="width:100%">
+                    <img src="grid/mandarin duck.jpg" style="width:100%; margin-bottom: 60px;">
+                </div>
+                <div class="column">
+                    <img src="grid/lizard.jpg" style="width:100%">
+                    <img src="grid/lemurs.jpg" style="width:100%">
+                    <img src="grid/frog.jpg" style="width:100%">
+                    <img src="grid/blueparrot.jpg" style="width:100%">
+                    <img src="grid/humming bird.jpg" style="width:100%">
+                    <img src="grid/bluemacow.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="grid/mandarin duck.jpg" style="width:100%">
+                    <img src="grid/robin.jpg" style="width:100%">
+                    <img src="grid/memphiscat.jpg" style="width:100%">
+                    <img src="grid/pangolin.jpg" style="width:100%">
+                    <img src="grid/redpanda.jpg" style="width:100%">
+                    <img src="grid/towcan.jpg" style="width:100%">
+                    <img src="grid/sea horse.jpg" style="width:100%; margin-bottom: 60px;">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&#169; Copyright, All rights Reserved !</p>
+        </div>
+    </div>
+</body>
+
+</html>

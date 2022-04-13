@@ -1,0 +1,33 @@
+.background{
+    box-sizing: border-box;
+    background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 49vw;
+}
+
+
+body{
+    height: 100vh;
+}
+.footer {
+    position: static;
+    height: 15vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+ }
+
+ .footer p{
+    margin: 50px;
+     text-align: center;
+     justify-content: center;
+     height: 1vh;
+    font-family: 'Yatra One', cursive;
+    font-size: 25px;
+ }
+

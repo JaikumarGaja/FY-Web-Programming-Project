@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.about{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;    
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: center;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3{
+    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 15px ;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+p{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+.fil a{
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px;
+    color: white;
+    padding: 20px;
+    border: 1px ;
+    transition: all 0.2s;
+}
+
+.fil{
+
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fil a{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border-radius: 50px;
+    text-align: centre;
+    margin:10px;
+    box-shadow: 1px 4px 2px 2px white;
+    overflow: hidden;
+}
+
+i{
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 15px;
+    margin-bottom: 25px;
+    transition: all 0.3s;
+    margin-left: 4px;
+    
+}
+
+.fil a:hover{
+    background-color: lightskyblue;
+}
+.fil a:hover i{
+    transform: scale(1.4);
+}
+
+.fa-linkedin{
+    color: #0e76a8;
+}
+
+.fa-facebook-f{
+    color: #4267B2;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+}
+
+.fa-instagram{
+    color:#C13584;
+}
+
+

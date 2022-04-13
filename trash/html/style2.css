@@ -1,0 +1,75 @@
+*{
+    
+}
+.navbar-brand img{
+    float: left;
+    height: 1.5cm;
+    width: auto;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, green,lightgreen);
+}
+
+.navbar-brand{
+    font-family: 'Pacifico',cursive;
+    font-size: 2.5rem;
+    color: rgb(238, 18, 18);
+}
+
+ div .carousel-inner{
+     margin-top: 1%;
+    width:70%; 
+    height:500px ;
+    margin-left: 15%;
+}
+
+ .navbar-nav .navbar-link{
+    padding: 2rem 1.2rem;
+    font-size: 1rem;
+    position: relative;
+}
+
+hr.line {
+    border: 5px solid;
+    color: black;
+  }
+
+.para {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.para h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.para h2{
+    font-family: cursive;
+    font-weight: bold;
+}
+.para p{
+    font-size: 120%;
+    font-family: cursive;
+    font-weight: lighter;
+}
+
+.para img{
+    width: 50%;
+    height: auto;
+    float: right;
+    border: 5px black;
+}
+
+.footer {  
+    position: bottom;    
+    width: auto;  
+    height: 2cm;
+    background-color: gray;  
+    color: white;  
+    text-align: center;  
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }  
+
+

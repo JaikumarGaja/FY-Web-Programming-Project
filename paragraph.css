@@ -1,0 +1,50 @@
+.belowcarousel{
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+.content{
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: justify;
+    color: white;
+}
+
+h1{
+    font-family: 'Grenze';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Grenze';
+    font-weight: bold;
+    font-size: 45px;
+}
+
+p{
+    font-family: 'Yatra One', cursive;
+    font-size: 25px;
+}
+pre{
+    font-size: 50px;
+}
+
+.content img{
+    width: 500px; 
+    height: auto;
+    float : right;
+    margin: 30px;
+    margin-left: 50px;
+    border: 2px solid black; 
+    transition: all 0.3s;
+    border-radius: 15px;
+}
+
+.content a img:hover{
+    transform: scale(1.1);
+}
+
